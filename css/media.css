@@ -1,0 +1,259 @@
+@media screen and (max-width: 420px) {
+    #home-2 h3 {
+        font-size: 1.5em;
+    }
+    #home-6 svg {
+        width: 100%;
+    }
+    #saudacao .desc h3{
+        font-size: 1.5em;
+    }
+    .pratica-medi h3 {
+        font-size: 1.8em;
+    }
+    .pratica-medi .orntc p, .pratica-medi .bnfcs p {
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 665px) {
+    #praticas-cards {
+        margin: 0 2em;
+    }
+    #def-pranayama ol, #def-asana ol {
+        padding: 0;
+    }
+    .pratica .passos .dica {
+        flex-direction: column;
+    }
+    .pratica .passos .dica span {
+        margin: 0.5em 0 0;
+    }
+    .pratica .passos .dica h4 {
+        text-align: center;
+    }
+    .pratica .passos .bnfcs {
+        flex-direction: column;
+    }
+    .pratica .passos .bnfcs span {
+        margin: 0.5em 0 0;
+    }
+    .pratica .passos .bnfcs h4 {
+        text-align: center;
+    }
+    .pratica .video {
+        flex-direction: column;
+    }
+    .pratica .video > * {
+        margin: 1.2em 0;
+    }
+    #medi-post section {
+        flex-direction: column;
+    }
+    .banner-mensagem-menor {
+        font-size: 2.5em !important;
+    }
+    #glossario div {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 726px) {
+    #timeline .text-historia {
+        display: none;
+    }
+    .pratica .pap img {
+        width: 100%;
+    }
+    .sem-imagem .passos {
+        margin: 0;
+    }
+    .pratica .passo-asana {
+        flex-direction: column-reverse;
+    }
+    .pratica .passo-asana .asana-v {
+        width: 60%;
+    }
+    .pratica .passo-asana .asana-h {
+        width: 100%;
+    }
+    #galeriah img, #galeriav img {
+        width: 100%;
+    }
+    #galeriah, #galeriav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+}
+@media screen and (max-width: 870px) {
+    #medi-book {
+        flex-direction: column;
+    }
+    #medi-book img {
+        width: 45%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 900px) {
+    #home-3 blockquote {
+        margin: 1.5em 1.5em;
+    }
+    #menu {
+        display: inline;
+    }
+    #nav-links {
+        display: none;
+        margin: 0 auto;
+    }
+    #nav-links li a {
+        font-size: 1.5em;
+    }
+    #nav-links li:hover{
+        background-color: #2c443b;
+    }
+    #banner-mensagem {
+        width: 90vw;
+    }
+    #cards-home {
+        flex-direction: column;
+    }
+    main {
+        margin: 0 7.5vw;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    #home-2 {
+        display: block;
+    }
+    #home-2 aside {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #home-6 {
+        flex-direction: column;
+    }
+    #sobre-agradecimentos section {
+        flex-direction: column;
+    }
+    #sobre-agradecimentos section img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    #cards-home {
+        flex-direction: column;
+    }
+    #praticas-cards #upper-cards, #praticas-cards #lower-cards {
+        flex-direction: column;
+    }
+    #praticas-cards #upper-cards a:first-child .card-pratica, #praticas-cards #lower-cards a:first-child .card-pratica {
+        background-color: #9b8e6e;
+    }
+    #praticas-cards #upper-cards a:last-child .card-pratica, #praticas-cards #lower-cards a:last-child .card-pratica {
+        background-color: #C4C4C4;
+    }
+    .pratica .desc {
+        flex-direction: column;
+    }
+    .h .desc section, .v .desc section {
+        width: auto;
+    }
+    .h .desc img {
+        width: 100%;
+    }
+    .v .desc img {
+        width: 60%;
+    }
+    footer {
+        display: block;
+    }
+    footer section {
+        width: 25vw;
+        margin: 0 auto;
+    }
+    footer section ul {
+        padding: 0;
+    }
+    footer #fnav-1 ul, footer #fnav-2 ul {
+        width: 6em;
+    }
+    #sobre-alunos h3 {
+        text-align: center;
+    }
+    #sobre-alunos section {
+        flex-direction: column;
+    }
+    #sobre-alunos section > * {
+        margin: 1em 0 !important;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    #def-pranayama-2 section, #def-asana-2 section {
+        flex-direction: column;
+    }
+    #def-pranayama-2 section img, #def-asana-2 section img {
+        margin: 0 auto;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .card-text{
+        margin: 1em 1em;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    #home-1 {
+        display: block;
+    }
+    #home-1 img{
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        height: 75%;
+    }
+    #home1 > img, section{
+        margin: 0;
+    }
+    #home-4 {
+        display: block;
+    }
+    #home-4 img {
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .pratica .passo-asana {
+        margin: 0 0;
+    }
+}
+
+@media screen and (min-width: 930px) and (min-height: 830px) {
+    #menu {
+        display: none;
+    }
+    #nav-links {
+        display: flex;
+        margin: 0 13em;
+    }
+    nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    header {
+        margin-top: 18.55em;
+    }
+}
